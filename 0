@@ -1,0 +1,90 @@
+Algoritmo "o"
+//  
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 16/06/2020
+Var
+
+u,do,t,q,c,s,m,d,n,v: real
+// Seção de Declarações das variáveis 
+
+
+Inicio
+
+escreva ("Digite o primeiro 1º valor: ")
+leia (u)
+escreva ("Digite o primeiro 2º valor: ")
+leia (do)
+escreva ("Digite o primeiro 3º valor: ")
+leia (t)
+escreva ("Digite o primeiro 4º valor: ")
+leia (q)
+escreva ("Digite o primeiro 5º valor: ")
+leia (c)
+
+s <- (u+do+t+q+c)
+Escreval ("A soma entre os valores é de ", s)
+
+m <- (s/5)
+Escreval ("A media entre os valores é de ", m)
+
+se (u%5=0) entao
+ d <- d + 1
+   fimse
+  se (do%5=0) entao
+ d <- d + 1
+   fimse
+      se (t%5=0) entao
+ d <- d + 1
+   fimse
+          se (q%5=0) entao
+ d <- d + 1
+   fimse
+             se (c%5=0) entao
+ d <- d + 1
+   fimse
+
+Escreval ("Valores divisiveis por cinco: ", d)
+
+se (u=0) entao
+ n <- n + 1
+  fimse
+  se (do=0) entao
+ n <- n + 1
+   fimse
+      se (t=0) entao
+ n <- n + 1
+   fimse
+          se (q=0) entao
+ n <- n + 1
+   fimse
+             se (c=0) entao
+ n <- n + 1
+           fimse
+
+
+Escreval ("Valores nulos: ", n)
+
+
+se (u%2=0) entao
+ v <- v + u
+ fimse
+ se (do%2=0) entao
+ v <- v + do
+ fimse
+ se (t%2=0) entao
+ v <- v + t
+ fimse
+ se (q%2=0) entao
+ v <- v + q
+ fimse
+ se (c%2=0) entao
+ v <- v + c
+ fimse
+
+Escreval ("A soma dos valores pares é : ", v)
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+
+Fimalgoritmo
